@@ -9,10 +9,10 @@ Example: given list -> [1,2,3,4,5]
 
 '''
 
-nums = [3, 5, 2, 9, 101, 333, 4]
+d = [211, 22, 321, 32, 431, 232, 324]
 
-while len(nums):
-    for i in range(len(nums)):
+while len(d):
+    for i in range(len(d)):
         if i%2==0:
-            del nums[i]
-    print(nums)
+            del d[i]
+    print(d)
